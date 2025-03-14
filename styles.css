@@ -33,5 +33,60 @@ header ul li:nth-of-type(6) {
 /* main */
 
 /* footer */
+footer {
+  max-height: 300px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav {
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-nav ul {
+  padding-right: 5%;
+}
+
+.footer-nav ul:last-child {
+  flex-direction: column;
+}
+
+.footer-nav ul li {
+  list-style-type: none;
+}
+
+.footer-nav ul li:first-of-type{
+  padding-bottom: 10px;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logos img {
+  height: 40px;
+  padding-right: 10px;
+  align-items:center;
+
+}
+
+.footer-logos div {
+  display:flex;
+  align-items: center;
+}
+.footer-logos img:nth-of-type(1){
+  height: 70px;
+  padding-right: 0px;
+}
+
+.footer-trademark {
+  display: flex;
+  justify-content: center;
+}
 
 /* media queries */

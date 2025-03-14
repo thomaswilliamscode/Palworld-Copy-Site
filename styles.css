@@ -1,3 +1,37 @@
+/* universal styles */
+
 body {
   color:aqua;
 }
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+
+
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  display: flex;
+  padding: 0px 20px;
+  list-style-type: none;
+  border-right: 1px solid gray;
+  align-items: center;
+}
+
+header ul li:nth-of-type(6) {
+  border: none;
+}
+
+/* main */
+
+/* footer */
+
+/* media queries */

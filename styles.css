@@ -50,7 +50,10 @@ main {
 }
 
 .trailers-section {
-  border: 1px solid green;
+  background-image: url(./pics/homepage/trailers-background.mv2);
+  width: 100%;
+  height: 900px;
+  box-sizing: border-box;
 }
 
 .trailers-container {
@@ -117,6 +120,39 @@ main {
 /* Scroll snapping for keyboard navigation */
 .trailers-wrapper:focus-within {
   scroll-behavior: smooth;
+}
+
+/* horizontal-button-container */
+
+.horizontal-button-container {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo-button {
+  width: 200px;
+  margin-right: 40px;
+  height: 50px;
+  padding: 10px 0px;
+  border: 2px solid white;
+  background-color: #0D141A
+}
+
+.steam-logo:hover {
+  background-color: #1692FF;
+
+}
+
+.xbox-logo:hover {
+  background-color: #167D10;
+
+}
+
+.playstation-logo:hover {
+  background-color: #04439C;
+
 }
 
 /* footer */

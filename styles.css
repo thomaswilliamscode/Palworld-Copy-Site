@@ -32,9 +32,7 @@ header ul li:nth-of-type(6) {
 
 /* main */
 
-main {
-  border: 1px solid orange;
-}
+
 
 .main-section {
   background-image: url("./pics/homepage/main-banner.png");
@@ -140,6 +138,8 @@ main {
   background-color: #0D141A
 }
 
+
+
 .steam-logo:hover {
   background-color: #1692FF;
 
@@ -154,6 +154,78 @@ main {
   background-color: #04439C;
 
 }
+
+/* words n vids section */
+.words-n-vids-container {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.words-n-vids {
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+  width: 100%;
+}
+
+.words-n-vids:nth-of-type(1),
+.words-n-vids:nth-of-type(3) {
+  background-image: url('./pics/homepage/background-02.jpg');
+}
+
+.words-n-vids:nth-of-type(2),
+.words-n-vids:nth-of-type(4) {
+  background-image: url('./pics/homepage/trailers-background.mv2');
+}
+
+
+.words {
+  width: 1000px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+
+
+.words p {
+  padding: 0px 100px;
+  
+}
+.words-container h2 {
+  border-bottom: 2px solid gray;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.vertical-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 280px;
+  
+}
+
+
+
+.aniplex-logo {
+  padding-top: 50px;
+}
+
+
+.video {
+  width: 100%;
+  display: flex;
+  
+}
+
+video {
+  width: 100%;
+  
+}
+
 
 /* footer */
 footer {

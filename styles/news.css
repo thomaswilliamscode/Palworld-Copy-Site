@@ -1,0 +1,31 @@
+main {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.news-main {
+  width: 60%;
+}
+.news-section {
+  border-top: 1px solid gray;
+  padding: 50px 0px;
+}
+.news-top,
+.news-bottom {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.news-top p:nth-of-type(1),
+.news-bottom p:nth-of-type(1) {
+  width: 30%;
+}
+
+.news-top p:nth-of-type(2),
+.news-bottom p:nth-of-type(2) {
+  width: 70%;
+}

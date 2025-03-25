@@ -6,6 +6,14 @@ main {
   
 }
 
+p {
+  white-space: pre-line;
+}
+
+a { 
+  text-decoration: none;
+}
+
 .news-main {
   width: 60%;
 }
@@ -28,4 +36,9 @@ main {
 .news-top p:nth-of-type(2),
 .news-bottom p:nth-of-type(2) {
   width: 70%;
+}
+
+.news-top p,
+.news-bottom p {
+  margin: 0px 20px;
 }

@@ -186,7 +186,33 @@
 
 .words-n-vids:nth-of-type(1),
 .words-n-vids:nth-of-type(3) {
+  position: relative;
   background-image: url("../pics/homepage/background-02.jpg");
+  
+}
+
+.words-n-vids:nth-of-type(1)::before,
+.words-n-vids:nth-of-type(3)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57, 60, 51, 0.9); /* Dark overlay */
+  z-index: 1;
+}
+
+.words {
+  position: relative;
+  z-index: 2;
+  color: white; /* Ensure text remains readable */
+}
+
+/* Ensure the video remains unaffected */
+.video video {
+  position: relative;
+  z-index: 2; /* Keeps the video above the dark overlay */
 }
 
 .words-n-vids:nth-of-type(2),

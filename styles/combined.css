@@ -69,6 +69,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
 .footer-nav ul:last-child {
   flex-direction: column;
 }

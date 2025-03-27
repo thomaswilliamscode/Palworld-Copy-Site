@@ -1,0 +1,163 @@
+/* Section-01 */
+
+.section-01 {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo-and-words {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 40%;
+  padding-right: 80px;
+  
+}
+.btn-div {
+  padding-right: 40px;
+}
+
+.main-banner {
+  width: 60%;
+}
+
+/* Section-02 */
+
+.section-02 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.div-container {
+  display:flex;
+  justify-content: center;
+  
+  
+}
+
+.styling-div {
+  width: 25%;
+  
+  display: flex;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.styling-div:nth-of-type(1) {
+  justify-content: flex-end;
+}
+
+.title {
+  padding: 0 20px;
+  
+  position: relative;
+  z-index: 2;
+}
+
+.styling-p {
+  border-bottom: 3px solid red;
+  width: 90%;
+  height: 30%;
+  position: relative;
+  z-index: 2;
+}
+
+.words-container p {
+  margin-left: 25%;
+  margin-right: 20%;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.words-container ol {
+  margin-left: 25%;
+  margin-right: 20%;
+  text-align: left;
+}
+
+.dont-want {
+  color: #FB5E3A;
+}
+
+.want {
+  color: #b2a134;
+}
+
+.words-container {
+  margin-bottom: 80px;
+}
+
+.pitch-your-game {
+  background-color: #A91418;  
+  transition: background-color 0.3s;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.pitch-your-game:hover {
+  background-color: #A40305;   /* Slight color change on hover */
+}
+
+
+.section-02 {
+  padding-bottom: 90px;
+}
+
+
+/* Section-03 */
+
+.section-03 {
+  background-image: url('../pics/homepage/background-02.jpg');
+  position: relative;
+  z-index: 2;
+  padding-bottom: 50px;
+}
+
+.section-03::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57, 60, 51, 0.9); /* Dark overlay */
+  z-index: 0;
+}
+
+.section-03-div {
+  display:flex;
+  justify-content: center;
+  position:relative;
+
+}
+
+.surgent-studios-pic {
+  margin-top: 20px;
+  margin-right: 50px;
+  border-radius: 8px;
+}
+
+.coming-soon {
+  margin-top: 50px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.last-btn-div {
+  
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+
+
+

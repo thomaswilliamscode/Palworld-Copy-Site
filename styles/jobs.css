@@ -159,3 +159,96 @@ body {
   margin-left: 35%;
   border-bottom: 1px solid gray;
 }
+
+
+/* Section-03 */
+
+.section-03 {
+  background: url('../pics/jobs/second\ banner.avif');
+  height: 575px;
+}
+
+/* Section-04 */
+.section-04 {
+  display: flex;
+  
+}
+
+.section-04 .career-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Section-05 */
+.section-05 {
+  background-image: url('../pics/jobs/third\ banner.avif');
+  height: 575px;
+  margin-top: 50px;
+}
+
+/* Section-06 */
+
+.section-06 {
+  display: flex;
+}
+
+/* Section-07 */
+.section-07 {
+  background-image: url('../pics/jobs/fourth\ banner.avif');
+  height: 575px;
+  margin-top: 50px;
+}
+
+/* Section-08 */
+.section-08 {
+  display: flex;
+  
+}
+
+/* Section-09 */
+
+.section-09 {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px;
+  
+  
+}
+.ceo-pic {
+  border-radius: 50%;
+}
+
+.words-container {
+  margin-left: 20px;
+}
+.section-09 h2 {
+  margin-top: -25px;
+  color: #C8C3BC;
+}
+
+.section-09 h3 {
+  color: #C8C3BC;
+}
+
+.section-09 .articles {
+  margin-left: -20%;
+  margin-top: 15%;
+}
+
+.section-09 a {
+  color: gray;
+  display: block;
+  margin-top: 30px;
+}
+
+.section-09 .button-div {
+  margin-left: 50%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-10 {
+  margin-bottom: 75px;
+}

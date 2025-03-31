@@ -49,10 +49,13 @@ body {
 }
 
 .career-btn {
+  display: flex;
+  gap: 60px;
   background: red;
   border: none;
   border-radius: 5px;
-  padding: 10px 100px;
+  padding: 10px 20px 10px 70px;
+  white-space: nowrap;
 }
 
 .career-btn:hover {
@@ -64,3 +67,88 @@ body {
 
 
 /* Section-02 */
+
+
+.circle-div {
+  /* Outer container size */
+  width: 230px;
+  height: 230px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+
+  /* 
+    Create the ring using a conic gradient:
+    - Blue from 0% to 70%
+    - Gray from 70% to 100%
+  */
+  background: conic-gradient(
+    #3da5ff 0% 70%,  /* 70% of the circle in blue */
+    #767676 70% 100% /* remaining 30% in gray */
+  );
+
+  /* Center any child elements (like the text) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Inner circle to create the “thickness” of the ring */
+.circle-div::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+
+  /* Make this smaller than the outer container
+     to form a ring around the center */
+  width: 200px;
+  height: 200px;
+
+  /* Match your page background color or a custom color */
+  background-color: #000;
+
+  /* Center it inside the ring-chart */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered text styling */
+.circle-div h1,
+.circle-div p {
+  position: relative; /* So it sits on top of the pseudo-element */
+  text-align: center;
+}
+
+.circle-div h1 {
+  font-size: 3rem;
+  margin-bottom: -5px;
+}
+
+.circle-div p {
+  font-size: 0.75rem;  /* Adjust as needed */
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.words-circle-btn {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 20%;
+  margin-top: -50px;
+}
+
+.section-02 ul {
+  margin-top: -180px;
+}
+
+.section-02 li {
+  padding-bottom: 15px;
+}
+
+.section-02 .career-btn {
+  margin-top: 70px;
+
+}

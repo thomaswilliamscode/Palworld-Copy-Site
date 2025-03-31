@@ -120,3 +120,7 @@ main {
 .section-03 {
   margin-bottom: 150px;
 }
+
+.section-03 a {
+  color: white;
+}

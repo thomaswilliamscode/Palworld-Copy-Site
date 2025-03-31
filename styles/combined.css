@@ -1,7 +1,7 @@
 /* universal styles */
 
 body {
-  color:aqua;
+  color:white;
 }
 
 /* header */
@@ -38,7 +38,7 @@ header ul li:nth-of-type(6) {
 
 header a {
   text-decoration: none;
-  color: aqua;
+  color: gray;
 }
 
 
@@ -68,6 +68,7 @@ footer {
 
 .footer-nav a {
   text-decoration: none;
+  color: white;
 }
 
 .footer-nav a:hover {
@@ -80,6 +81,7 @@ footer {
 
 .footer-nav ul li {
   list-style-type: none;
+  margin-top: 5px;
 }
 
 .footer-nav ul li:first-of-type{

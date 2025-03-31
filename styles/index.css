@@ -40,6 +40,10 @@
   
 }
 
+.horizontal-social img:hover {
+  cursor: pointer;
+}
+
 .horizontal-social img:nth-of-type(1) {
   height: 70px;
   padding-right: 0px;

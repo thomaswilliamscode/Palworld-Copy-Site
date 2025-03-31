@@ -83,7 +83,7 @@
 }
 
 .want {
-  color: #b2a134;
+  color: #59EAFF;
 }
 
 .words-container {
@@ -149,6 +149,13 @@
   padding: 10px 30px;
   border-radius: 5px;
   border: none;
+  transition: background-color 0.3s ease;
+}
+
+.coming-soon:hover {
+  cursor: pointer;
+  background-color: #44494C;
+  
 }
 
 .last-btn-div {

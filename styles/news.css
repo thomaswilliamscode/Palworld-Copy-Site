@@ -12,6 +12,7 @@ p {
 
 a { 
   text-decoration: none;
+  color:white;
 }
 
 .news-main {
@@ -20,6 +21,10 @@ a {
 .news-section {
   border-top: 1px solid gray;
   padding: 50px 0px;
+}
+
+.news-top:hover {
+  background-color: #171C1D;
 }
 .news-top,
 .news-bottom {
@@ -41,4 +46,8 @@ a {
 .news-top p,
 .news-bottom p {
   margin: 0px 20px;
+}
+
+.news-bottom a {
+  color: #d70921;
 }

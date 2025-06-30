@@ -298,22 +298,39 @@ video {
 
 /* Media Queries */
 
-/* ===== Desktop: Large screens (1200px and up) ===== */
-@media (min-width: 1200px) {
-  /* Styles for big desktops */
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .header-ul {
+    font-size: 0.75rem;
+  }
+
 }
 
 
-/* ===== Tablet: Medium screens (768px to 1199px) ===== */
-@media (min-width: 768px) and (max-width: 1199px) {
-  /* Styles for tablets and small laptops */
+@media (min-width: 1024px) {
+
+  .header-ul {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+
 }
 
 
-/* ===== Mobile: Small screens (up to 767px) ===== */
-@media (max-width: 767px) {
-  /* Styles for phones */
+@media (min-width: 1920px) {
+
 }
 
+@media (min-width: 2000px) {
+
+}
 
 

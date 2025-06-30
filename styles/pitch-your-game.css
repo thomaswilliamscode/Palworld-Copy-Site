@@ -164,6 +164,38 @@
   margin: 50px 0;
 }
 
+/* Media Queries */
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+
+}
+
+@media (min-width: 1440px) {
+
+
+}
+
+
+@media (min-width: 1920px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}
+
+
 
 
 

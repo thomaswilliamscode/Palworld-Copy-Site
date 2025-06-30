@@ -118,3 +118,38 @@ footer {
   justify-content: center;
 }
 
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .header-ul {
+    font-size: 0.75rem;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+
+  .header-ul {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+
+}
+
+
+@media (min-width: 1920px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}
+

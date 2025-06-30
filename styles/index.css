@@ -317,7 +317,20 @@ video {
 }
 
 @media (min-width: 768px) {
-    .words-n-vids-1 {
+
+  .horizontal-button-container img{
+    width: 20%;
+  }
+
+  .horizontal-button-container{
+    margin-left: 7%;
+  }
+
+  .horizontal-social{
+    margin-left: 3%;
+  }
+  
+  .words-n-vids-1 {
     padding-bottom: 2%;
   }
   .words-n-vids-2{
@@ -335,7 +348,20 @@ video {
 
 
 @media (min-width: 1024px) {
-    .words-n-vids-1 {
+
+  .horizontal-button-container img{
+    width: 20%;
+  }
+
+  .horizontal-button-container{
+    margin-left: 7%;
+  }
+
+  .horizontal-social{
+    margin-left: 3%;
+  }
+
+  .words-n-vids-1 {
     padding-bottom: 2%;
   }
   .words-n-vids-2{
@@ -352,6 +378,14 @@ video {
 }
 
 @media (min-width: 1440px) {
+
+  .horizontal-button-container{
+    margin-left: 5%;
+  }
+
+  .horizontal-social{
+    margin-left: 3%;
+  }
 
   .words-n-vids-1 {
     padding-bottom: 4%;

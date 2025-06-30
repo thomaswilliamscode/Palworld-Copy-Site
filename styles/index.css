@@ -318,6 +318,10 @@ video {
 
 @media (min-width: 768px) {
 
+  .header-ul {
+    font-size: 0.75rem;
+  }
+
   .horizontal-button-container img{
     width: 20%;
   }
@@ -329,7 +333,7 @@ video {
   .horizontal-social{
     margin-left: 3%;
   }
-  
+
   .words-n-vids-1 {
     padding-bottom: 2%;
   }
@@ -348,6 +352,10 @@ video {
 
 
 @media (min-width: 1024px) {
+
+  .header-ul {
+    font-size: 1rem;
+  }
 
   .horizontal-button-container img{
     width: 20%;

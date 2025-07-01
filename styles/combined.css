@@ -18,6 +18,11 @@ header {
   z-index: 1000; /* Ensures it stays above other elements */
 }
 
+.header-img-div img{
+  height: 3rem;
+  width: auto;
+}
+
 
 
 header ul {
@@ -118,11 +123,12 @@ footer {
   justify-content: center;
 }
 
-@media (min-width: 480px) {
-
+@media (min-width: 425px) {
+  
 }
 
 @media (min-width: 768px) {
+
 
   .header-ul {
     font-size: 0.75rem;

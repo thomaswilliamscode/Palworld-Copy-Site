@@ -137,7 +137,6 @@ body {
   display: flex;
   margin-left: 5%;
   margin-right: 20%;
-  margin-top: -50px;
   padding-bottom: 50px;
 }
 
@@ -157,6 +156,7 @@ body {
 .styling-div {
   width: 45%;
   margin-left: 35%;
+  margin-bottom: 2.5%;
   border-bottom: 1px solid gray;
 }
 
@@ -190,13 +190,6 @@ body {
 
 .section-06 {
   display: flex;
-}
-
-/* Section-07 */
-.section-07 {
-  background-image: url('../pics/jobs/fourth\ banner.avif');
-  height: 575px;
-  margin-top: 50px;
 }
 
 /* Section-08 */
@@ -255,11 +248,13 @@ body {
 
 /* Media Queries */
 
-@media (min-width: 480px) {
-
+@media (min-width: 425px) {
+  
 }
 
 @media (min-width: 768px) {
+
+  
 
 
 }
@@ -268,10 +263,10 @@ body {
 @media (min-width: 1024px) {
 
 
+
 }
 
 @media (min-width: 1440px) {
-
 
 }
 
@@ -281,5 +276,5 @@ body {
 }
 
 @media (min-width: 2000px) {
-
+  
 }

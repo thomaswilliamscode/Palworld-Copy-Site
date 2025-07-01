@@ -50,11 +50,11 @@ header a {
 
 /* footer */
 footer {
+  max-height: 300px;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   background-color: #202123;
-  overflow: hidden;
 }
 
 .footer a {
@@ -67,11 +67,6 @@ footer {
   justify-content: center;
 
 }
-
-.footer-nav-container{
-  display: flex;
-  flex-direction: row;
-  }
 
 .footer-nav ul {
   padding-right: 5%;
@@ -134,75 +129,39 @@ html, body, header, footer, main {
   overflow-x: hidden;
 }
 
-@media (max-width: 2000px) {
+@media (min-width: 425px) {
   
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 768px) {
+
+
+  .header-ul {
+    font-size: 0.75rem;
+  }
 
 }
 
-@media (max-width: 1440px) {
 
-
-}
-
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 
   .header-ul {
     font-size: 1rem;
   }
-  footer{
-    padding-bottom: 5%;
-  }
 
 }
 
-@media (max-width: 768px) {
-  header img{
-    height: 2rem;
-    margin-top: 1.1%;
-  }
-  .header-ul li{
-    font-size: 0.6rem;
-  }
+@media (min-width: 1440px) {
 
-  footer{
-    padding-top: 5%;
-    padding-bottom: 1%;
-    font-size: 1rem;
-  }
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-nav-container{
-    display: flex;
-    flex-direction: row;
-  }
 
-}
-@media (max-width: 425px) {
-  header img{
-    height: 1.2rem;
-    margin-top: 4.2%;
-    margin-left: -3%;
-  }
-  .header-ul {
-    margin-left: -10%;
-    width: 70%;
-  }
-  .header-ul li{
-    font-size: 0.5rem;
-    padding: 0 2%;
-  }
-  footer{
-    padding-top: 5%;
-    padding-bottom: 1%;
-    font-size: 0.8rem;
-  }
-  
 }
 
 
+@media (min-width: 1920px) {
+
+}
+
+@media (min-width: 2000px) {
+
+}
 

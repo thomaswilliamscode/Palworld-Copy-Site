@@ -166,33 +166,104 @@
 
 /* Media Queries */
 
-@media (min-width: 480px) {
-
+@media (max-width: 2000px) {
+  
 }
 
-@media (min-width: 768px) {
-
-
-}
-
-
-@media (min-width: 1024px) {
+@media (max-width: 1440px) {
 
 
 }
 
-@media (min-width: 1440px) {
-
-
-}
-
-
-@media (min-width: 1920px) {
+@media (max-width: 1024px) {
 
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 768px) {
+  .logo-and-words{
+    margin-left: 8%;
+  }
+  .main-banner{
+    margin-left: -8%;
+  }
+  .words-container ol {
+    font-size: 1rem;
+    padding-bottom: 5%;
+  }
+  .surgent-studios-pic{
+    width: 80%;
+  }
+  .section-03-words{
+    margin-left: -20%;
+  }
+}
+@media (max-width: 425px) {
+  .section-01{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo-and-words{
+    margin-left: 33%;
+    margin-top: 10%;
+  }
+  .logo-and-words img {
+    margin-left: 20%;
+  }
+  .main-banner{
+    margin-left: 3%;
+    width: 90%;
+  }
+  .top-game{
+    font-size: 0.6rem;
+    margin-left: -15%;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 8%;
+    width: 150%;
 
+  }
+
+  .section-02{
+    margin-top: 5%;
+  }
+  .words-container{
+    margin-left: -40%;
+    margin-right: -30%;
+    padding-right: 0%;
+    font-size: 0.8rem;
+  }
+  .words-container p{
+    margin-bottom: 5%;
+  }
+  .words-container ol {
+    font-size: 1rem;
+    padding-bottom: 5%;
+  }
+  .funded-title {
+    margin-left: -3%;
+    font-size: 1.3rem;
+    width: 90%;
+  }
+
+  .section-03-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .surgent-studios-pic{
+    width: 90%;
+    margin-left: 4%;
+  }
+  .section-03-words{
+    margin-left: 16%;
+  }
+
+  .coming-soon-div{
+    margin-top: -20%;
+  }
+  .coming-soon{
+    margin-left: 50%;
+
+  }
 }
 
 

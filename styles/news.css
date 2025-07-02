@@ -54,31 +54,32 @@ a {
 
 /* Media Queries */
 
-@media (min-width: 480px) {
-
+@media (max-width: 2000px) {
+  
 }
 
-@media (min-width: 768px) {
-
-
+@media (max-width: 1440px) {
+  main {
+    font-size: 1rem;
+  }
 }
 
-
-@media (min-width: 1024px) {
-
-
+@media (max-width: 1024px) {
+  main {
+    font-size: 0.8rem;
+  }
 }
 
-@media (min-width: 1440px) {
-
-
+@media (max-width: 768px) {
+  main {
+    font-size: 0.7rem;
+  }
 }
-
-
-@media (min-width: 1920px) {
-
-}
-
-@media (min-width: 2000px) {
-
+@media (max-width: 425px) {
+  main {
+    font-size: 0.5rem;
+  }
+  .news-main{
+    width: 90%;
+  }
 }

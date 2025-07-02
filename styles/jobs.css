@@ -303,6 +303,43 @@ body {
 
 
 @media (max-width: 425px) {
-  
+  .words {
+    margin-left: 5%;
+    font-size: 0.6rem;
+    margin-bottom: -10%;
+  }
+  .words-ul{
+    margin-left: -50%;
+  }
+
+  .articles{
+    margin-left: -100%;
+  }
+
+  .articles a{
+    font-size: 0.5rem;
+  }
+  .articles-container{
+    margin-left: -80%;
+    margin-top: 50%;
+  }
+  .btn-margin{
+    margin-left: 70%;
+    margin-top: 30%;
+    font-size: 0.75rem;
+  }
+  .words-mission{
+    margin-top: -2%;
+  }
+  .styling-div{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .section-03, .section-05{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: -110%;
+  }
 }
 

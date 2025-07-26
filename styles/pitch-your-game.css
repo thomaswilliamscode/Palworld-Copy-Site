@@ -1,3 +1,8 @@
+body {
+  background-color: #141516;
+  z-index: 1;
+}
+
 /* Section-01 */
 
 .section-01 {

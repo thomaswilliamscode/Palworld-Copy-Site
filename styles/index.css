@@ -1,4 +1,7 @@
-
+body {
+  background-color: #141516;
+  z-index: 1;
+}
 
 /* main */
 
@@ -66,7 +69,7 @@
 }
 
 .trailers-section {
-  background-image: url("../pics/homepage/trailers-background.mv2");
+  background-image: url("../pics/homepage/background-01.png");
   width: 100%;
   height: 850px;
   box-sizing: border-box;
@@ -237,7 +240,7 @@
 
 .words-n-vids:nth-of-type(2),
 .words-n-vids:nth-of-type(4) {
-  background-image: url("../pics/homepage/trailers-background.mv2");
+  background-image: url("../pics/homepage/background-01.png");
 }
 
 
